@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    
+}
+header h1{
+    white-space: nowrap;
+}
+input{
+    padding: 5px;
+    border-radius: 5px 10px;
+    border: none;
+}
+
+.button{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
