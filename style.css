@@ -58,17 +58,21 @@ input{
 .category-list{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+
 }
 .category{
-    max-width: 300px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .category img{
     width: 100%;
     border-radius: 10px;
-    position: relative;
+   
 }
 .category span{
     position: absolute;
