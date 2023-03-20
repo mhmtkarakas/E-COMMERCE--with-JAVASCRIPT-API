@@ -12,19 +12,31 @@
         <h1>E-Ticaret</h1>
         <input type="text" placeholder="urunleri giriniz">
         <div class="buttons">
-            <button>Sepet</button>
+            <button id="sepet">Sepet</button>
             <button>KayitOl</button>
             <button>Giris Yap</button>
         </div>
     </header>
+    <main>
     <!--KATEGORILER-->
     <div class="category-wrapper">
         <h1>Kategoriler</h1>
-        <div class="category-list">
-            
-        </div>
+        <div class="category-list"></div>
     </div>
   <!--Urunler-->
-    <script src="main.js"></script>
+  <div class="product-wrapper">
+    <h1>Urunler</h1>
+    <div class="product-list"></div>
+    </div>
+  </div>
+
+   <!--URUN SON-->
+   <div class="modal-wrapper ">
+    <div class="modal">
+        <img src="/images/close.png" >
+    </div>
+   </div>
+</main>
+    <script id="close" src="main.js"></script>
 </body>
 </html>
